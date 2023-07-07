@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanPotter\SilverStripeCMSTheme\Extensions;
+namespace AndrewHoule\SilverStripeCMSTheme\Extensions;
 
 use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\Core\Config\Config;
@@ -9,7 +9,7 @@ use SilverStripe\View\Requirements;
 
 /**
  * Class LeftAndMainExtension
- * @package RyanPotter\SilverStripeCMSTheme\Extensions
+ * @package AndrewHoule\SilverStripeCMSTheme\Extensions
  * @property \SilverStripe\Admin\LeftAndMain $owner
  */
 class LeftAndMainExtension extends Extension
@@ -29,7 +29,7 @@ class LeftAndMainExtension extends Extension
     $cms_icon_color = !$config->cms_icon_color ? 'currentColor' : $config->cms_icon_color;
 
     Requirements::insertHeadTags('<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">','cms-theme-font-awesome');
-    Requirements::css('ryanpotter/silverstripe-cms-theme:dist/main.css');
+    Requirements::css('andrewhoule/silverstripe-cms-theme:dist/main.css');
 
     Requirements::customCSS(
       '.cms-mobile-menu-toggle {background: ' . $cms_background . ' !important; color: ' . $cms_color . ' !important;}' .

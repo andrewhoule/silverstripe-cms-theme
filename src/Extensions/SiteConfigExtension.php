@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanPotter\SilverStripeCMSTheme\Extensions;
+namespace Andrewhoule\SilverStripeCMSTheme\Extensions;
 
 use SilverStripe\Assets\Image;
 use SilverStripe\Control\Director;
@@ -16,7 +16,7 @@ use SilverStripe\SiteConfig\SiteConfig;
 
 /**
  * Class SiteConfigExtension
- * @package RyanPotter\SilverStripeCMSTheme\Extensions
+ * @package AndrewHoule\SilverStripeCMSTheme\Extensions
  * @property \SilverStripe\SiteConfig\SiteConfig $owner
  */
 class SiteConfigExtension extends DataExtension

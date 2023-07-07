@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanPotter\SilverstripeCMSTheme\Extensions;
+namespace AndrewHoule\SilverstripeCMSTheme\Extensions;
 
 use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\Core\Convert;
@@ -13,7 +13,7 @@ use SilverStripe\View\ArrayData;
 /**
  * Class GroupedCmsMenu
  *
- * @package RyanPotter\SilverstripeCMSTheme\Extensions
+ * @package AndrewHoule\SilverstripeCMSTheme\Extensions
  * @property \SilverStripe\Admin\LeftAndMain $owner
  */
 class GroupedCmsMenu extends DataExtension

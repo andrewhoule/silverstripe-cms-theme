@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanPotter\SilverstripeCMSTheme\Extensions;
+namespace AndrewHoule\SilverstripeCMSTheme\Extensions;
 
 use SilverStripe\Core\Config\Config;
 
@@ -13,7 +13,7 @@ use SilverStripe\Core\Config\Config;
  * The class using this trait should define a const called CONFIG_SETTINGS_WITH_DEFAULTS which is an array of strings.
  * Each string should be the name of a config setting (i.e. the name of a private static variable).
  *
- * @package RyanPotter\SilverstripeCMSTheme\Extensions
+ * @package AndrewHoule\SilverstripeCMSTheme\Extensions
  * @mixin \SilverStripe\Core\Extension
  */
 trait ExtensionDefinesDefaultConfig

@@ -1,11 +1,12 @@
 ---
-Name: ryanpotter-silverstripe-cms-theme
+Name: andrewhoule-silverstripe-cms-theme
 ---
+
 SilverStripe\Admin\LeftAndMain:
   extensions:
-    - RyanPotter\SilverStripeCMSTheme\Extensions\LeftAndMainExtension
-    - RyanPotter\SilverStripeCMSTheme\Extensions\GroupedCmsMenu
+    - AndrewHoule\SilverStripeCMSTheme\Extensions\LeftAndMainExtension
+    - AndrewHoule\SilverStripeCMSTheme\Extensions\GroupedCmsMenu
 
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - RyanPotter\SilverStripeCMSTheme\Extensions\SiteConfigExtension
+    - AndrewHoule\SilverStripeCMSTheme\Extensions\SiteConfigExtension
