@@ -14,7 +14,7 @@ use SilverStripe\View\Requirements;
  */
 class LeftAndMainExtension extends Extension
 {
-  public function init()
+  public function onAfterInit()
   {
     $config = LeftAndMain::config();
     $cms_background = !$config->cms_background ? '#1d48a0' : $config->cms_background;
