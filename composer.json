@@ -16,7 +16,7 @@
   ],
   "require": {
     "silverstripe/framework": "^6.0",
-    "silverstripe/admin": "^2.0",
+    "silverstripe/admin": "^2.1",
     "silverstripe/siteconfig": "^6.0"
   },
   "support": {
