@@ -3,23 +3,23 @@
 namespace Andrewhoule\SilverStripeCMSTheme\Extensions;
 
 use SilverStripe\Assets\Image;
+use SilverStripe\Forms\TabSet;
+use SilverStripe\Core\Extension;
+use SilverStripe\Forms\FieldList;
 use SilverStripe\Control\Director;
+use SilverStripe\Forms\HeaderField;
+use SilverStripe\Security\Permission;
+use SilverStripe\Forms\FileHandleField;
+use SilverStripe\SiteConfig\SiteConfig;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Core\Manifest\ModuleResourceLoader;
-use SilverStripe\Forms\FieldList;
-use SilverStripe\Forms\FileHandleField;
-use SilverStripe\Forms\HeaderField;
-use SilverStripe\Forms\TabSet;
-use SilverStripe\ORM\DataExtension;
-use SilverStripe\Security\Permission;
-use SilverStripe\SiteConfig\SiteConfig;
 
 /**
  * Class SiteConfigExtension
  * @package AndrewHoule\SilverStripeCMSTheme\Extensions
  * @property \SilverStripe\SiteConfig\SiteConfig $owner
  */
-class SiteConfigExtension extends DataExtension
+class SiteConfigExtension extends Extension
 {
   /**
    * @config $has_one
