@@ -4,7 +4,7 @@ namespace AndrewHoule\SilverstripeCMSTheme\Extensions;
 
 use SilverStripe\Core\Convert;
 use SilverStripe\Core\Extension;
-use SilverStripe\View\ArrayData;
+use SilverStripe\Model\ArrayData;
 use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\Model\List\ArrayList;
 use SilverStripe\ORM\FieldType\DBField;
