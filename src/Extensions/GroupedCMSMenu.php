@@ -2,13 +2,13 @@
 
 namespace AndrewHoule\SilverstripeCMSTheme\Extensions;
 
-use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\Core\Convert;
-use SilverStripe\ORM\ArrayList;
-use SilverStripe\ORM\DataExtension;
-use SilverStripe\ORM\FieldType\DBField;
-use SilverStripe\ORM\GroupedList;
+use SilverStripe\Core\Extension;
 use SilverStripe\View\ArrayData;
+use SilverStripe\Admin\LeftAndMain;
+use SilverStripe\Model\List\ArrayList;
+use SilverStripe\ORM\FieldType\DBField;
+use SilverStripe\Model\List\GroupedList;
 
 /**
  * Class GroupedCmsMenu
@@ -16,7 +16,7 @@ use SilverStripe\View\ArrayData;
  * @package AndrewHoule\SilverstripeCMSTheme\Extensions
  * @property \SilverStripe\Admin\LeftAndMain $owner
  */
-class GroupedCmsMenu extends DataExtension
+class GroupedCmsMenu extends Extension
 {
   use ExtensionDefinesDefaultConfig;
 
