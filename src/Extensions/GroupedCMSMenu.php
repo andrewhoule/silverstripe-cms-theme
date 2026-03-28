@@ -8,7 +8,7 @@ use SilverStripe\ORM\ArrayList;
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\ORM\FieldType\DBField;
 use SilverStripe\ORM\GroupedList;
-use SilverStripe\Model\ArrayData;
+use SilverStripe\View\ArrayData;
 
 /**
  * Class GroupedCmsMenu
